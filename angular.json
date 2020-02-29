@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "live-kc": {
@@ -24,7 +24,9 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
+              
             ],
             "scripts": []
           },
@@ -119,6 +121,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "live-kc"
+    }
+  },
+  "defaultProject": "live-kc",
+  "cli": {
+    "analytics": "c52ffc86-dafe-42fd-bf00-a5c70c29a58f"
+  }
 }
